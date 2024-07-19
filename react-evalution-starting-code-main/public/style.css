@@ -1,0 +1,80 @@
+body {
+    font-family:  ui-sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+    color: #333;
+  }
+  
+  #app {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  
+  .inventory-container, .cart-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  
+  h1 {
+    font-size: 2em;
+    color: #333;
+    text-align: center;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+    background-color: #E1DAC8;
+    border-radius: 10px;
+    margin: 15px;
+  }
+  
+  li:last-child {
+    border-bottom: none;
+  }
+  
+  button {
+    margin-left: 10px;
+    padding: 5px 10px;
+    background-color: #3D6EAB;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+
+  button.decrease {
+    background-color: #D9534F;
+  }
+  
+  button.increase {
+    background-color: #5CB85C;
+  }
+  
+  .checkout-btn {
+    background-color: #040404;
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    margin-left: 105%;
+  }
+  
+  .item-count{
+    margin-left: 10px;
+  }
+  
